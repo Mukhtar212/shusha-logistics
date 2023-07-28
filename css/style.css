@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+:root {
+    --currentColor:#B90470
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+  
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;  
+}
+
+.myButton {
+    background-color: var(--currentColor);
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px var(--currentColor);
+    border-radius: 4px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.myButton:hover {
+    background-color: transparent;
+    border: 1px solid var(--currentColor);
+    color: #000;
+  }
+
+header {
+    background-color: var(--currentColor);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+header .headerTop {
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+header .headerTop .left .phoneNumber,
+header .headerTop .right .socialMediaIcon {
+    color: #fff;
+}
+
+header .headerTop .left .phoneNumber {
+    margin-right: 30px;
+}
+
+header .headerTop .right .socialMediaIcon {
+    margin-left: 10px;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../assets/images/golden.jpg);
+    padding: 60px 0;
+    background-position: center;
+    background-size: cover;
+}
+
+main .banner .navbar {
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 70px;
+    padding: 0 50px;
+    align-items: center;
+}
+
+main .banner .navigation .link {
+    color: #000;
+    margin-left: 20px;
+}
+
+main .banner .navigation .link:hover {
+    border-bottom: 2px solid var(--currentColor);
+}
+
+main .slogan {
+    padding: 60px 0 0 0;
+    color: #fff;
+}
+  
+main .slogan .title {
+    font-size: 64px;
+    font-family: montserrat;
+}
+  
+main .slogan .title2 {
+    margin: 20px 0;
+}
+  
+main .slogan p {
+    width: 58ch;
+    text-align: justify;
+}
+  
+.aboutButton {
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+}
+  
+.aboutButton:hover {
+    color: #fff;
+}
+
+.vector1 {
+    color: white;
+    cursor: pointer;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 0 12rem;
+    font-size: small;
+}
+
+.vector1 .vector:hover {
+    color: blue;
+}
+
+
+.container .parent .chl {
+   margin: 50px auto;
+}
+
+.container .parent.chl> a {
+    color: var(--currentColor);
+}
+
+.child {
+    width: 480px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+}
+
+.truck> img {
+    width: 1150px;
+    margin: 45px 0;
+}
+
+.truck> p {
+    text-align: center;
+    margin: 20px 90px;
+}
+
+
+
+
+
+
+
+
